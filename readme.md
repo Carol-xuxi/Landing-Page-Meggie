@@ -1,5 +1,5 @@
 # Projeto Landing Page Meggie 🐶💖
-<img src='css/imagens/readmemeggie.gif'>
+<img src='src/css/imagens/readmemeggie.gif'>
 
 ## Informações
 - Projeto Landing Page, de minha autoria. 
