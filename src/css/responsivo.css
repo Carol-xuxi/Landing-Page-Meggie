@@ -1,0 +1,72 @@
+@media (max-width: 480px){
+    html{
+        cursor: url('imagens/cursor2.png'), auto;
+    }
+    .menu-navegacao{
+        padding: 30px;
+        gap:10px;
+    }
+
+    .menu-navegacao .logo .imagem-logo {
+        max-width: 100px;}
+
+    #sobre-mim{
+        gap: 15px;
+    }
+
+    .slides img{
+        max-width: 50%;
+    }
+
+    .animacao img{
+        max-width: 150%;
+    }
+
+    @keyframes seta{
+        from{
+            transform: translateX(0%);
+        }
+    
+        to{
+            transform: translateX(25%);
+        }
+    }
+    
+    @-webkit-keyframes seta {
+        from {
+            -webkit-transform: translateX(0%);
+        }
+    
+        to {
+            -webkit-transform: translateX(25%);
+        }
+    }
+
+    .links ul{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 369px){
+    html{
+        cursor: url('imagens/cursor2.png'), auto;
+    }
+    .menu-navegacao{
+        flex-direction: column;
+    }
+
+    .slide{
+        flex-direction: column;
+    }
+
+    #raca{
+        gap: 20px;
+    }
+
+    .informacoes p{
+    padding: 30px;
+    text-align: center;
+    }
+
+}

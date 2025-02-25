@@ -1,0 +1,263 @@
+html {
+    font-family: 'Puppies Play', serif;
+    background-color: #F0B8C8;
+    color: #9370DB;
+    cursor: url('imagens/cursor.png'), auto;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.menu-navegacao .logo {
+    perspective: 800px;
+}
+
+.menu-navegacao .logo .imagem-logo {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 100%;
+    animation: cao 3s linear infinite;
+    -webkit-animation: cao 3.5s linear infinite;
+
+}
+
+
+@keyframes cao {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes cao {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+.menu-navegacao .menu ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu-navegacao .menu ul a {
+    font-size: 40px;
+}
+
+.menu-navegacao .menu ul a:hover {
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+#sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.imagem-Meggie{
+    max-width: 40%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre {
+    max-width: 500px;
+    text-align: center;
+}
+
+.sobre h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre .icone{
+    font-size: 30px;
+}
+
+.sobre p {
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.slides{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    }
+
+.opacidade{
+    opacity: 0.6;
+}
+
+.seta-voltar {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: scaleX(-1) translateY(-80%);
+    z-index: 1;
+}
+
+.slides .slide.slide-1 img{
+    max-width: 25%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+
+.slides .slide.slide-2 img{
+    max-width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+
+.slides .slide.slide-3 img{
+    max-width: 20%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+
+ .informacoes h2 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .informacoes p {
+    font-size: 40px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.slides .slide{
+    opacity: 0;
+}
+
+.slides .slide.mostrar{
+    opacity: 1;
+}
+
+
+ .slide-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+ .slide-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left:0;
+
+}
+
+ .slide-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.seta-avancar {
+    position: absolute;
+    right: 15px;
+    transform: translateY(-80%);
+    top:50%;
+    z-index: 1;
+
+}
+
+#raca{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 40px 40px;
+}
+
+.descricao-raca h2{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.descricao-raca p{
+    font-size: 40px;
+}
+
+.descricao-raca p:last-child{
+    margin-bottom: 20px;
+}
+
+.animacao img{
+    max-width: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    animation: seta 3.5s linear infinite;
+}
+
+@keyframes seta{
+    from{
+        transform: translateX(0%);
+    }
+
+    to{
+        transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes seta {
+    from {
+        -webkit-transform: translateX(0%);
+    }
+
+    to {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+
+.links ul{
+    display: flex;
+    gap: 40px;
+}
+
+.links ul a{
+    font-size: 40px;
+}
+
+.links ul a:hover{
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
